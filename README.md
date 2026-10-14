@@ -64,18 +64,25 @@ Fitur lokasi (target encoding `ward_id` dan `vdcmun_id`) mendominasi, disusul je
 .
 ├── README.md
 ├── requirements.txt
-├── data/                    # train.csv, test.csv, sample_submission.csv
+├── data/
+│   ├── metadata.csv
+│   ├── train.csv
+│   ├── test.csv
+│   ├── sample_submission.csv                 
 ├── notebooks/
 │   ├── 01_eda.ipynb         # eksplorasi data
 │   ├── 02_modeling.ipynb    # eksperimen model baseline
 │   └── 03_submission.ipynb  # menjalankan training dan prediksi
 ├── scripts/
+│   ├── __init__.py
 │   ├── preprocess.py            # preprocessing untuk baseline logreg
 │   ├── feature_engineering.py   # fitur turunan dan target encoding
 │   ├── train.py                 # evaluasi model dan latih model final
 │   └── predict.py               # membuat file submission
-├── models/final_model.pkl
-├── submissions/submission.csv
+├── models
+│   └── final_model.pkl
+├── submissions
+│   └── submission.csv
 └── reports/
     ├── model_comparison.csv
     └── figures/feature_importance.png

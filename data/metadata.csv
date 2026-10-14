@@ -1,0 +1,28 @@
+Variable,Description,Type
+building_id,A unique ID that identifies a unique building from the survey,Text
+district_id,District where the building is located,Text
+vdcmun_id,Municipality where the building is located,Text
+ward_id,Ward Number in which the building is located,Text
+count_floors_pre_eq,Number of floors that the building had before the earthquake,Number
+age_building,Age of the building (in years),Number
+plinth_area_sq_ft,Plinth area of the building (in square feet),Number
+height_ft_pre_eq,Height of the building before the earthquake (in feet),Number
+land_surface_condition,Surface condition of the land in which the building is built,Categorical
+foundation_type,Type of foundation used in the building,Categorical
+roof_type,Type of roof used in the building,Categorical
+ground_floor_type,Ground floor type,Categorical
+other_floor_type,Type of construction used in other floors (except ground floor and roof),Categorical
+position,Position of the building,Categorical
+plan_configuration,Building plan configuration,Categorical
+has_superstructure_adobe_mud,Flag variable that indicates if the superstructure of the building is made of Adobe/Mud,Boolean
+has_superstructure_mud_mortar_stone,Flag variable that indicates if the superstructure of the building is made of Mud Mortar - Stone,Boolean
+has_superstructure_stone_flag,Flag variable that indicates if the superstructure of the building is made of Stone,Boolean
+has_superstructure_cement_mortar_stone,Flag variable that indicates if the superstructure of the building is made of Cement Mortar - Stone,Boolean
+has_superstructure_mud_mortar_brick,Flag variable that indicates if the superstructure of the building is made of Mud Mortar - Brick,Boolean
+has_superstructure_cement_mortar_brick,Flag variable that indicates if the superstructure of the building is made of Cement Mortar - Brick,Boolean
+has_superstructure_timber,Flag variable that indicates if the superstructure of the building is made of Timber,Boolean
+has_superstructure_bamboo,Flag variable that indicates if the superstructure of the building is made of Bamboo,Boolean
+has_superstructure_rc_non_engineered,Flag variable that indicates if the superstructure of the building is made of RC (Non Engineered),Boolean
+has_superstructure_rc_engineered,Flag variable that indicates if the superstructure of the building is made of RC (Engineered),Boolean
+has_superstructure_other,Flag variable that indicates if the superstructure of the building is made of any other material,Boolean
+damage_grade,Damage grade assigned to the building by the surveyor after assessment (TARGET),Categorical
