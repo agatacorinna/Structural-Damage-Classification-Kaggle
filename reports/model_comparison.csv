@@ -1,0 +1,5 @@
+model,macro_f1,accuracy
+Gradient Boosting + fitur lokasi + bobot kelas,0.5494921187543972,0.5738333348954476
+Gradient Boosting + fitur lokasi,0.5386703568925773,0.5819781991320893
+LogReg One-vs-One,0.5076064074982991,0.5391169055139512
+LogReg One-vs-All,0.5043998198731121,0.5416850215103146
